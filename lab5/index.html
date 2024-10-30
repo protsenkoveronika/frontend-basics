@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проценко В.І. ІА-23</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-section">
+            <h2>Форма для заповнення</h2>
+            <form onsubmit="return validateForm(this.form)">
+                <label for="fullName">ПІБ:</label><br>
+                <input type="text" id="fullName" name="fullName" placeholder="Прізвище І.П."><br>
+
+                <label for="idCard">ID-card:</label><br>
+                <input type="text" id="idCard" name="idCard" placeholder="ТТ №ЧЧЧЧЧЧ"><br>
+
+                <label for="birthDate">Дата народження:</label><br>
+                <input type="text" id="birthDate" name="birthDate" placeholder="ДД.ММ.РРРР"><br>
+
+                <label for="address">Адреса:</label><br>
+                <input type="text" id="address" name="address" placeholder="Місто"><br>
+
+                <label for="email">e-mail:</label><br>
+                <input type="text" id="email" name="email" placeholder="email@gmail.com"><br>
+
+                <input type="submit" value="Відправити">
+            </form>
+        </div>
+        <div class="data-section">
+            <h2>Введені дані</h2>
+            <p><strong>ПІБ:</strong> <span id="outputFullName"></span></p>
+            <p><strong>ID-карт:</strong> <span id="outputІdCard"></span></p>
+            <p><strong>Дата народження:</strong> <span id="outputBirthDate"></span></p>
+            <p><strong>Адреса:</strong> <span id="outputAddress"></span></p>
+            <p><strong>Пошта:</strong> <span id="outputEmail"></span></p>
+        </div>
+    </div>
+
+    <div class="container2">
+        <input type="color" id="colorPicker" value="#ff0000" />
+        <table id="colorTable">
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -34,7 +34,7 @@ const Image = () => {
         <div>
             <a href="http://www.whereintheworldistosh.com/2020/12/30/how-to-spend-one-day-exploring-gdansk-poland"
                target="_blank" rel="noopener noreferrer">
-                <img src="/img/gdansk.jpg" alt="Gdansk"/>
+                <img src="img/gdansk.jpg" alt="Gdansk"/>
             </a>
 
             <div>

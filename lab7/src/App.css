@@ -1,0 +1,56 @@
+/*1*/
+img {
+  max-width: 100%;
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+
+/*2*/
+.goods-gallery {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.goods-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 260px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.goods-card img {
+  max-width: 100%;
+  height: calc(150px + 3vw);
+  border-radius: 10px;
+}
+
+.goods-card h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.goods-card p {
+  font-size: 1rem;
+  color: #555;
+}

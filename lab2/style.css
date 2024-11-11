@@ -1,0 +1,84 @@
+table {
+    border-collapse: collapse;
+    border: 1.5px solid black;
+}
+
+tr td {
+    height: 2rem;
+    border: 1.5px solid black;
+}
+
+.row1 {
+    background-color: #128f8f;
+    color: #000000;
+}
+
+.row2 {
+    background-color: #5f5f12;
+    color: #71F9FF;
+}
+
+.row1:hover {
+    background-color: #b56119;
+    color: #000000;
+}
+
+.row2:hover {
+    background-color: #411678;
+    color: #FFFFFF;
+}
+
+
+.pictures {
+    display: flex;
+}
+
+.flag {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 10px 10px 0 0;
+}
+
+.vertical-bar, .horizontal-bar {
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.vertical-bar {
+    bottom: 30px;
+    right: 60px;
+    top: 30px;
+    left: 60px;
+}
+
+.horizontal-bar {
+    bottom: 60px;
+    right: 30px;
+    top: 60px;
+    left: 30px;
+}
+
+.flag2 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 10px 10px 0 0;
+}
+
+.vertical-bar2, .horizontal-bar2 {
+    width: 30px;
+    height: 90px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.vertical-bar2 {
+    transform: translate(60px, 30px);
+}
+
+.horizontal-bar2 {
+    transform: rotate(90deg) translate(-60px, -60px);
+}

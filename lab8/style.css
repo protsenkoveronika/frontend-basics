@@ -1,0 +1,640 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: white;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: cornflowerblue;
+    padding: 8px 40px;
+}
+
+.socials {
+    display: flex;
+    gap: 20px;
+}
+
+.socials img{
+    height: 16px;
+    width: auto;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    gap: calc(14px + 1.75vw);
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+.contact img {
+    height: calc(10px + 0.25vw);
+    width: auto;
+}
+
+.contact p {
+    margin: 0 0 0 0.5vw;
+    font-size: small;
+    color: white;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #eef6fd;
+    padding: 2px 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-top: 4px;
+    height: calc(50px + 0.25vw);
+    width: auto;
+    border-radius: 100%;
+}
+
+.logo p {
+    padding: 0 0 0 0.5vw;
+    font-size: large;
+    font-weight: 900;
+    color: #e15873;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: calc(9px + 1.75vw);
+}
+
+.navbar a {
+    font-size: calc(8px + 0.65vw);
+    font-weight: 300;
+}
+
+button {
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background: #e15873;
+    padding: 8px 25px;
+    font-size: calc(4px + 1vw);
+    cursor: pointer;
+}
+
+.slogan-container {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background: #eef6fd;
+    padding: 20px 0 0 40px;
+}
+
+h1 {
+    margin: 0;
+    font-size: calc(2px + 4vw);
+    font-weight: 900;
+    color: #333;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: calc(1px + 3vw);
+    width: 40%;
+    padding-right: 10px;
+}
+
+.slogan-section {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.slogan-section p {
+    margin: 12px 0;
+    font-size: calc(1px + 1.4vw);
+}
+
+.variant-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding: 3px;
+    width: 100%;
+    height: auto;
+    background: white;
+    border-radius: 5px;
+}
+
+.variant-section p {
+    width: 50%;
+    padding-right: 25%;
+    font-size: calc(1px + 1.25vw);
+    font-weight: bold;
+}
+
+.woman-with-dogs-img {
+    width: 25%;
+    height: auto;
+    border-radius: 7px;
+    margin-right: 20px;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 20px;
+    width: 60%;
+}
+
+.wave {
+    position: absolute;
+    width: 107%;
+    bottom: -4px;
+    left: -20px;
+}
+
+.dog {
+    width: 100%;
+    height: auto;
+    padding-bottom: 2px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    gap: calc(10px + 1vw);
+    margin: 40px;
+    text-align: center;
+}
+
+.pet-care-row {
+    padding-bottom: 12%;
+}
+
+h2 {
+    font-size: calc(1px + 3vw);;
+    color: #333;
+    margin: 0;
+    font-weight: bold;
+}
+
+.carousel-section {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.carousel-item {
+    position: relative;
+    width: 33%;
+    border-radius: 8px;
+    overflow: visible;
+    text-align: left;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.carousel-item-description {
+    position: absolute;
+    top: 80%;
+    right: 20px;
+    left: 20px;
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: visible;
+}
+
+h4 {
+    font-size: calc(2px + 2vw);
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+.carousel-item-description p {
+    font-size: calc(3px + 1vw);
+    color: #555;
+    margin: 1rem 0 0 0;
+}
+
+.pet-meaning-row {
+    display: flex;
+    align-items: center;
+}
+
+.pet-meaning-left-column {
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+}
+
+.pet-meaning-img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.play-img {
+    width: 20%;
+    height: auto;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.pet-meaning-description {
+    display: flex;
+    position: absolute;
+    top: 86%;
+    left: 33px;
+    overflow: visible;
+    padding-right: 58%;
+    align-items: center;
+}
+
+.pet-meaning-description p {
+    font-size: calc(3px + 1vw);
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    text-align: left;
+}
+
+.pet-meaning-right-column {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: left;
+    gap: calc(0.5px + 3vw);
+    width: 50%;
+    padding-left: 30px;
+}
+
+.pet-meaning-right-column p {
+    font-size: calc(4px + 1vw);
+    color: #555;
+    margin: 0;
+}
+
+.pet-emergency-row {
+    margin: 0;
+    position: relative;
+}
+
+.pet-emergency-img {
+    height: calc(150px + 30vw);
+    width: 100%;
+}
+
+.pet-emergency-description {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 30%;
+    top: 50px;
+    bottom: 50px;
+    left: 10px;
+    border-radius: 8px;
+    overflow: visible;
+    align-items: start;
+    justify-content: center;
+    background: white;
+    padding: 30px 15px 30px 25px;
+    gap: 1rem;
+}
+
+.phone-img {
+    width: 20px;
+}
+
+.quote {
+    font-size: calc(4px + 1.5vw);
+    color: #555;
+    padding: 0;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.owner p {
+    margin: 0;
+}
+
+.owner-name {
+    font-size: calc(2px + 1.5vw);
+    color: #31bfe3;
+    font-weight: bold;
+}
+
+.owner-clarification {
+    font-size: calc(1px + 1.5vw);
+    color: #7a7a7a;
+}
+
+.quote-row {
+    position: relative;
+    margin: 0;
+    height: calc(300px + 4vw);
+    display: flex;
+    justify-content: center;
+}
+
+.quote-background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.25;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 20px 80px;
+    text-align: center;
+}
+
+.owner-img {
+    width: calc(20px + 4vw);
+    height: calc(20px + 4vw);
+    border-radius: 100%;
+    padding: 3px;
+    border: #31bfe3 solid 1px;
+}
+
+.pet-emergency-description p {
+    font-size: calc(3px + 1vw);
+    color: #555;
+    padding: 0;
+    margin: 5px 0;
+    font-weight: bold;
+    text-align: left;
+}
+
+.footer-background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.footer-row {
+    position: relative;
+    margin: 0;
+    height: calc(300px + 4vw);
+    display: flex;
+    justify-content: center;
+}
+
+.footer-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 20px 60px;
+    text-align: center;
+}
+
+.footer-section h2 {
+    font-size: calc(1px + 3vw);
+    color: white;
+}
+
+.footer-section p {
+    font-size: calc(2px + 1.5vw);
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.invisible-btn {
+    background: transparent;
+    border: 1px solid white;
+    cursor: pointer;
+    color: white;
+    border-radius: 30px;
+    padding: 8px 25px;
+    font-size: calc(4px + 1vw);
+}
+
+@media only screen and (max-width:800px) {
+    h1 {
+        font-size: calc(2.2px + 3.9vw);
+    }
+
+    .contact-info {
+        padding: 6px 20px;
+    }
+
+    .contacts {
+        gap: calc(10px + 1.75vw);
+    }
+
+    .header {
+        padding: 2px 20px;
+    }
+
+    .logo img {
+        height: calc(40px + 0.25vw);
+    }
+
+    .logo p {
+        font-size: small;
+    }
+
+    .navbar {
+        gap: calc(4px + 1.75vw);
+    }
+
+    .slogan-container {
+        padding: 20px 0 0 20px;
+    }
+
+    .woman-with-dogs-img {
+        width: 30%;
+        margin-right: 10px;
+    }
+
+    .variant-section p {
+        padding-right: 20%;
+    }
+
+    .content-container {
+        margin: 20px;
+    }
+
+    .carousel-section {
+        flex-direction: column;
+        gap: 3rem;
+        align-items: center;
+    }
+
+    .carousel-item {
+        width: 80%;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .carousel-item-description {
+        top: 82%;
+    }
+
+    .carousel-item-description p {
+        margin: 0.5rem 0 0 0;
+    }
+
+    .pet-meaning-description {
+        top: 84%;
+        left: 23px;
+        padding-right: 50%;
+    }
+
+    .pet-meaning-description p {
+        font-size: calc(1px + 1.08vw);
+    }
+
+    .quote-row {
+        height: calc(250px + 4vw);
+    }
+
+    .footer-row {
+        height: calc(250px + 4vw);
+    }
+}
+
+@media only screen and (max-width:500px) {
+    h1 {
+        font-size: calc(0.7px + 4vw);
+    }
+
+    .socials {
+        gap: 10px;
+    }
+
+    .contact img {
+        height: 10px;
+    }
+
+    .socials img {
+        height: 11px;
+    }
+
+    .contact p {
+        font-size: x-small;
+    }
+
+    .logo img {
+        height: calc(30px + 0.25vw);
+    }
+
+    .logo p {
+        padding: 0 0 0 1px;
+        font-size: calc(0.7px + 2vw);
+    }
+
+    .header button {
+        padding: 6px 15px;
+        font-size: 8px;
+    }
+
+    .navbar a {
+        font-size: 8px;
+    }
+
+    .left-column {
+        gap: calc(3px + 2vw);
+    }
+
+    .slogan-section p {
+        margin: 8px 0;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .pet-meaning-description {
+        top: 80%;
+        left: 15px;
+        padding-right: 45%;
+    }
+
+    .pet-meaning-description p {
+        font-size: calc(1px + 1.08vw);
+    }
+
+    .pet-meaning-right-column {
+        padding-left: 20px;
+    }
+
+    .pet-emergency-img {
+        height: calc(200px + 10vw);
+    }
+
+    .pet-emergency-description {
+        top: 25px;
+        bottom: 25px;
+        gap: 0.5rem
+    }
+
+    .phone-img {
+        width: 15px;
+    }
+
+    .phone-btn {
+        font-size: 6px;
+    }
+
+    .quote-row {
+        height: calc(200px + 4vw);
+    }
+
+    .footer-row {
+        height: calc(200px + 4vw);
+    }
+}
